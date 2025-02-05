@@ -1,50 +1,99 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>js dental clinic hospital </title>
-    <link rel="icon" href="Js dental images.png">
-  </head>
-  <body style="color:white;background-color:black;">
-    <center>
-      <h1>We welcome you all for js dental clinic hospital</h1>
-      <h2>Grand opening</h2>
-      <P>We are thrilled to announce the grand opening of our state of the art JS dental clinic!
-        join us as we embrak on a journey to bring top-notch dental care to the community.Our
-        clinic is equipped with the latest technology and staffed by a team of highly skilled professionals dedicated
-        to providing exceptional service.From preventive care to advanced treatments,we are committed to ensuring your oral
-        health and comfort.Come and experience a warm,welcoming atmosphere where your smile is our top priority.Visit us at
-        JS dental clinic and let us help you acheive the radiant smile you deserves!
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Dental Clinic - Home</title>
+    <link rel="icon" href="assets/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
 
-                         Feel free to tweak this better suit your needs,and congratulations on the grand opening..
-      </P>
-    </center>
-    <hr>
-    <p>
-      lorem ipsum dolor sit amet consectetur,adipisicing elit.Aspernatur facere eum doloremque doloreum ipsum
-      aliquid,iure corrupti.
-    </p>
-    <center>
-      <img src="teeth images.png">
-      <h1>photos are gallery</h1>
-      <h2>first day grand openning all are welcome</h2>
-    </center>
-    <p>
-      loreum ipsum,dolor sit amet consectetur adipisicing elit.
-    </p>
-    <center>
-      <img src="Js dental images.png">
-      <h1>
-        <a href="https://www.justdial.com/Kanchipuram/J-S-Dental-Clinic-Irulancheri-Perambakkam/9999PXX44-XX44-181205165325-X4C7_BZDET>Js dental hospital</a>
-      </h1>
-          <h2>Free entry|Free food|</h2>
-          <p>
-          loreum,ipsum dolor sit amet consectetur adipisicing elit
-          <p>
-    </center>
-     <center>
-          <h1>Contact</h1>
-          <h2>2345678901|abivijayakumar419@gmail.com</h2>
-      <p>Valluvar street,karur</p
-      </center>
-  </body>
-  </html>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/logo.png" alt="Logo" width="50"> JS Dental Clinic
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container text-center text-white">
+            <h1 class="display-4 fw-bold">Welcome to JS Dental Clinic</h1>
+            <p class="lead">Experience world-class dental care with cutting-edge technology.</p>
+            <a href="contact.html" class="btn btn-primary btn-lg">Book an Appointment</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="container my-5 text-center">
+        <h2>Grand Opening</h2>
+        <p class="lead">We are thrilled to announce the grand opening of our state-of-the-art JS Dental Clinic! Join us as we embark on a journey to bring top-notch dental care to the community.</p>
+        <p>Our clinic is equipped with the latest technology and staffed by highly skilled professionals dedicated to your oral health.</p>
+        <a href="about.html" class="btn btn-dark">Learn More</a>
+    </section>
+
+    <!-- Services Section -->
+    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Our Services</h2>
+            <p class="lead">Comprehensive dental care for a healthy, beautiful smile.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fas fa-tooth fa-3x"></i>
+                    <h3>Preventive Care</h3>
+                    <p>Regular check-ups and cleanings to maintain oral health.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-smile fa-3x"></i>
+                    <h3>Cosmetic Dentistry</h3>
+                    <p>Enhance your smile with whitening, veneers, and more.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-procedures fa-3x"></i>
+                    <h3>Oral Surgery</h3>
+                    <p>Expert surgical procedures for extractions and implants.</p>
+                </div>
+            </div>
+            <a href="services.html" class="btn btn-primary mt-3">Explore Services</a>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="container my-5 text-center">
+        <h2>Photo Gallery</h2>
+        <p class="lead">A look inside our modern and welcoming clinic.</p>
+        <div class="row">
+            <div class="col-md-4"><img src="assets/clinic1.jpg" class="img-fluid rounded" alt="Clinic Image"></div>
+            <div class="col-md-4"><img src="assets/clinic2.jpg" class="img-fluid rounded" alt="Clinic Image"></div>
+            <div class="col-md-4"><img src="assets/clinic3.jpg" class="img-fluid rounded" alt="Clinic Image"></div>
+        </div>
+        <a href="gallery.html" class="btn btn-dark mt-3">View More</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>© 2025 JS Dental Clinic. All rights reserved.</p>
+        <p><i class="fas fa-phone"></i> 2345678901 | <i class="fas fa-envelope"></i> abivijayakumar419@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Valluvar Street, Karur</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
